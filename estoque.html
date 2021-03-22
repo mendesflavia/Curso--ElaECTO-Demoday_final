@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+      <link href="./assets/img/MN+.png" rel="icon">
+      <link rel="stylesheet" href="./assets/style.css">
+      <script type="text/javascript" src= "./banckend/estoque.js" defer></script>
+      <title>Meu Negócio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <img src="assets/img/MN+ (1).png" height="auto" width="100" alt="logo" aling="left" >
+        <ul>
+            <li>
+                <a href="logado.html">Dia Dia</a>
+            </li>
+            <li>
+                <a href="cadastro.html">Cadastro</a>
+            </li>
+            <li>
+                <a href="estoque.html"> Estoque </a>                     
+            </li>
+            <li>
+                <a href="agenda.html">Agenda
+            </li>
+            <li>
+                <a href="home.html">Voltar para Home</a>
+            </li>                
+         </ul>   
+    </nav>
+    </nav>
+    
+  <!--estoque-->
+  <header class="banner5" id="estoque"> 
+    <body class="estoque">
+        <form>
+            <fieldset>
+                <legend>Estoque</legend>
+                <table cellspacing="10">
+
+                 <tr>
+                  <td>
+                   <label for="descriçao">Descrição: </label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="descricao">
+                  </td>
+
+            
+                
+                 </tr>
+
+                 <tr>
+                  <td>
+                   <label>Quantidade: </label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="quantidade" size="4" maxlength="4" value=""> 
+                   </td>
+                 </tr>
+
+                 <tr>
+                  <td>
+                   <label for="Unidade">Unidade: </label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="unidade" size="4" maxlength="4"> 
+                  </td>
+                 </tr>
+
+                 <tr>
+                  <td>
+                   <label>Custo R$:</label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="custo" size="9" maxlength="9"> 
+                  </td>
+                 </tr>
+
+                 <tr>
+                    <td>
+                 <label>Valor total do estoque R$:</label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="valorTotalEstoque" size="10" maxlength="10"> 
+                  </td>
+                 </tr>
+
+                 <tr>
+                    <td>
+                 <label>Lucro %:</label>
+                  </td>
+                  <td align="left">
+                   <input type="text" name="lucro" size="3" maxlength="3"> 
+                  </td>
+                 </tr>
+                 <tr>
+                    <tr>
+                        <td>
+                     <label>Valor de venda R$:</label>
+                      </td>
+                      <td align="left">
+                       <input type="text" name="valorVenda" size="10" maxlength="10"> 
+                      </td>
+                     </tr>
+                     <tr>
+                        <td>
+                     <label>Fornecedor :</label>
+                      </td>
+                      <td align="left">
+                       <input type="text" name="fornecedor" size="10" maxlength="10"> 
+                      </td>
+                     </tr>
+                             
+                    </td>
+                </table>
+            </fieldset>
+        </form>
+        <button id="botaoEnviar">enviar</button>
+               
+     <table id="tabelaEstoque">
+        <fieldset>
+
+            <tr>
+               <th>
+                Descrição
+               </th>
+               <th>
+                Quantidade
+               </th>
+               <th>
+                Unidade
+               </th>
+               <th>
+                Custo R$:
+               </th>
+               <th>
+                Valor total estoque R$:
+               </th>
+               <th>
+                Lucro %:
+               </th>
+               <th>
+                valor venda R$:
+               </th>
+               <th>
+                Fornecedor
+               </th>
+
+            
+
+
+
+              </tr>
+
+        </fieldset>
+
+
+     </table>
+
+
+
+</header>

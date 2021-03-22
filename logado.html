@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+      <link href="./assets/icon/logo.png" rel="icon">
+      <link rel="stylesheet" href="./assets/style.css">
+      <link href='fullcalendar/main.css' rel='stylesheet' />
+      <script src='fullcalendar/main.js'></script>
+      <script type="text/javascript" src= "./banckend/logado.js" defer></script>
+      <title>Meu Negócio - Logado</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <img src="assets/img/MN+ (1).png" height="auto" width="100" alt="logo" aling="left" >
+        <ul>
+            <li>
+                <a href="logado.html">Dia Dia</a>
+            </li>
+            <li>
+                <a href="cadastro.html">Cadastro</a>
+            </li>
+            <li>
+                <a href="estoque.html"> Estoque </a>                     
+            </li>
+            <li>
+                <a href="agenda.html">Agenda
+            </li>
+            <li>
+                <a href="home.html">Voltar para Home</a>
+            </li>                
+         </ul>   
+    </nav>
+        <!--dia dia-->
+        <header class="banner00" id="diadia"> 
+
+            <form>
+                Data: <input type="date" name="data">
+            </form>
+            <fieldset>
+                <legend >Anotações</legend>
+                    <label for="anotaçoes"></label>
+                    <textarea class=cxtxt cols= 180 id="opiniao" rows=20" name="opiniao" maxlength="600"
+                    wrap="hard"></textarea>
+                    <button id="salvarAnotacao"> Salvar </button>
+                </fieldset>
+                
+                <div class="todolist">
+                    <fieldset>            
+                        <legend>Tarefas</legend>
+
+                        <ul class=tarefasCheck>
+                         
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170"  /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                          <li><input type="checkbox" id="myCheck" > <input type="text" name="Nome" size="170" /></li>
+                        </ul>
+                        <button id="salvarAnotacao"> Salvar </button>
+                        </fieldset> 
+
+       
+  <center>
+    <section class=rodape>
+        
+        <div  id=ref>
+            
+            <h1>© 2021 Demoday, ElaECTO.</h1>
+            
+        </div>
+
+        <div id=redes>
+            
+            <button type="submit">  <img src= "./assets/img/logoFace.png" height="auto" width="40" alt="Facebook"></button>
+            <button type="submit">  <img src= "./assets/img/logoInsta.png" height="auto" width="40" alt="Instagram"></button> 
+            
+        </div>    
+    </section>
+</center>
+</html>

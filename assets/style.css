@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    width: auto;
+  }
+  /* nav*/
+  .navbar {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    margin-right: 0px;
+    top: 0;
+    margin-bottom: 0;
+    color: rgb(61, 61, 61);
+    
+  }
+  /*imagem logo*/
+  .navbar img {
+    display: flex;
+    align-content: center;
+    align-items: initial;
+    float: left;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1vw;
+
+  }
+  /*menu*/
+  .navbar li {
+    color: rgb(61, 61, 61);
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-right: 2vw;
+  }
+  .navbar li a{
+    list-style-type: none;
+    text-decoration: none;
+  }
+  nav button {
+    justify-items: center;
+    align-items: center;
+    background-color: #415a77;
+    border-style: inherit;
+    border-color: rgb(23, 62, 97);
+}
+  /*.........................................*/
+  .banner_inicio{
+    background-image: url(img/home.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .banner_beneficio{
+    background-image: url(img/beneficio.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .banner_nossos_serviços{
+    background-image: url(img/nossos_servicos.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .banner_equipe{
+    background-image: url(img/4.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .banner_contato {
+    background-image: url(img/5.png);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 0;
+    
+  }
+  #submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#submit p {
+
+margin: 8px;
+}
+
+#submit input{
+
+    height:25px;
+    width: 100px;
+    border-radius: 20px;
+    font-size:16px;
+    border-color: #F1FAEE ;
+    border-style: solid;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+
+.formcontato {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 30px;
+  padding-top: 80px;
+  padding-left: 690px;
+  height: 400px;
+  width: 375px;
+  font-size: 80px;
+
+}
+
+.formcontato input {
+  border-radius: 10px;
+  font-size: 31px;
+  border-style: solid;
+  border-width: 0px;
+  height: 45px;
+  background-color: #fed9c3;
+  margin: 8px;
+}
+
+.formcontato button {
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: rgb(245, 245, 245);
+}
+
+  
+/*logado*/
+.banner00{
+  background-image: url(img/diadia.png);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 120px;
+  color: azure;
+}
+
+.banner4{
+  background-image: url(img/cadastro2.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 120px;
+  color: azure;
+}
+.banner5{
+  background-image: url(img/estoque.png);
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 150px;
+  color: black;
+}
+.banner6{
+  background-image: url(img/agenda.png);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin-top: 0;
+ 
+}
+.bannercadastro{
+  background-image: url(img/cadastro.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 120px;
+   }
+.bannerestoque{
+  background-image: url(img/estoque.png);
+  background-size: cover;
+  height: 600px;
+  width: auto;
+  
+}
+.painelPrincipal{
+  padding: 130px;;
+}
+#agenda{
+  display:flex;
+  flex-direction: column;
+  padding: 50px;
+  
+   
+}

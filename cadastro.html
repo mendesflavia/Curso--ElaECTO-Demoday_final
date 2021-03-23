@@ -32,7 +32,7 @@
          </ul>   
     </nav>
     <!--cadastro-->
-       <section class="banner_cadastro" id="cadastro"> 
+        <section class="banner_cadastro" id="cadastro"> 
         <div id="formCadastro">
             <fieldset>
                <legend>Dados Pessoais</legend>
@@ -135,15 +135,14 @@
        <br />
        
        <!-- informações -->
-       <fieldset>
-           <legend>Informações</legend>
-               <label for ="informacao"></label>
-               <textarea class=cxtxt cols=80 id="opiniao" rows="5" name="informacao" maxlength="200" wrap="hard"></textarea>
-               <input type="checkbox" name="tipo_cadastro" value="cliente">Cliente
-               <input type="checkbox" name="tipo_cadastro" value="paciente">Paciente      
-               <input type="checkbox" name="tipo_cadastro" value="fornecedor">Fornecedor<br>
-               <button id="botaoEnviar">enviar</button>
-       </fieldset>
+            <fieldset>
+             <legend>Informações</legend>
+                <input textarea class=cxtxt cols=80 rows="600" name="informacao" maxlength="200" wrap="hard"></textarea>
+                <input type="checkbox" name="cliente" value="cliente">Cliente
+                <input type="checkbox" name="paciente" value="paciente">Paciente      
+                <input type="checkbox" name="fornecedor" value="fornecedor">Fornecedor<br>
+                <button id="botaoEnviar">enviar</button>
+            </fieldset>
 
                <table id="tabelaCadastro">
                     <tr>
@@ -187,19 +186,16 @@
                         <th>
                         Informações
                         </th>
-                      </tr>
-                      <th>
-                        cliente
+                       <th>
+                        Cliente
                         </th>
-                      </tr>
                       <th>
-                        paciente
+                        Paciente
                         </th>
-                      </tr>
                       <th>
-                       fornecedor
+                       Fornecedor
                         </th>
-                      </tr>
+                    </tr>
       
         </div>
         </section>

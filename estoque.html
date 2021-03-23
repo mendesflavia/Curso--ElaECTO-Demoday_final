@@ -30,13 +30,10 @@
                 <a href="home.html">Voltar para Home</a>
             </li>                
          </ul>   
-    </nav>
-    </nav>
+    </nav>    
     
   <!--estoque-->
-  <header class="banner5" id="estoque"> 
-    <body class="estoque">
-        <form>
+    <section class="banner_estoque" id="estoque"> 
             <fieldset>
                 <legend>Estoque</legend>
                 <table cellspacing="10">
@@ -46,19 +43,14 @@
                    <label for="descriçao">Descrição: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="descricao">
-                  </td>
-
-            
-                
+                   <input type="text" name="descricao"size="100" maxlength="100" value="">
                  </tr>
-
                  <tr>
                   <td>
                    <label>Quantidade: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="quantidade" size="4" maxlength="4" value=""> 
+                   <input type="text" name="quantidade" size="20" maxlength="10" value=""> 
                    </td>
                  </tr>
 
@@ -67,7 +59,7 @@
                    <label for="Unidade">Unidade: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="unidade" size="4" maxlength="4"> 
+                   <input type="text" name="unidade" size="20" maxlength="10"> 
                   </td>
                  </tr>
 
@@ -76,7 +68,7 @@
                    <label>Custo R$:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="custo" size="9" maxlength="9"> 
+                   <input type="text" name="custo" size="20" maxlength="10"> 
                   </td>
                  </tr>
 
@@ -85,7 +77,7 @@
                  <label>Valor total do estoque R$:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="valorTotalEstoque" size="10" maxlength="10"> 
+                   <input type="text" name="valorTotalEstoque" size="20" maxlength="10"> 
                   </td>
                  </tr>
 
@@ -94,7 +86,7 @@
                  <label>Lucro %:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="lucro" size="3" maxlength="3"> 
+                   <input type="text" name="lucro" size="20" maxlength="10"> 
                   </td>
                  </tr>
                  <tr>
@@ -103,7 +95,7 @@
                      <label>Valor de venda R$:</label>
                       </td>
                       <td align="left">
-                       <input type="text" name="valorVenda" size="10" maxlength="10"> 
+                       <input type="text" name="valorVenda" size="20" maxlength="10"> 
                       </td>
                      </tr>
                      <tr>
@@ -111,19 +103,16 @@
                      <label>Fornecedor :</label>
                       </td>
                       <td align="left">
-                       <input type="text" name="fornecedor" size="10" maxlength="10"> 
+                       <input type="text" name="fornecedor" size="100" maxlength="100"> 
                       </td>
                      </tr>
                              
                     </td>
                 </table>
+                <button id="botaoEnviar">enviar</button>
             </fieldset>
-        </form>
-        <button id="botaoEnviar">enviar</button>
-               
-     <table id="tabelaEstoque">
-        <fieldset>
 
+        <table id="tabelaEstoque">
             <tr>
                <th>
                 Descrição
@@ -149,18 +138,10 @@
                <th>
                 Fornecedor
                </th>
-
-            
-
-
-
-              </tr>
-
-        </fieldset>
-
-
-     </table>
+        </table>
+    </section>
+  </body>
+</html>
 
 
 
-</header>

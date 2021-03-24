@@ -1,35 +1,70 @@
 const cadastro = 
 [
-{
-    "nome":"Pedro Santos",
-    "email":"pedrosantos@email.com",
-    "data_nasc":"03/20/1981",
-    "rg":"01200777-9",
-    "cpf":"264777999-36",
-    "rua":"Rua Para",
-    "numero":"33 apt 42",
-    "bairro":"Campo Grande",
-    "estado":"Sao Paulo",
-    "cidade":"Santos",
-    "cep":"11075-000",
-    "informacao":"",
-    
-},
-{
-    "nome":"Pedro Santos",
-    "email":"pedrosantos@email.com",
-    "data_nasc":"03/20/1981",
-    "rg":"01200777-9",
-    "cpf":"264777999-36",
-    "rua":"Rua Para",
-    "numero":"33 apt 42",
-    "bairro":"Campo Grande",
-    "estado":"Sao Paulo",
-    "cidade":"Santos",
-    "cep":"11075-000",
-    "informacao":"",
-    
-},
+    {   
+        "nome":"Aline",
+        "email":"alinesouza@email.com",
+        "data_nasc":"07/02/1999",
+        "rg":"258965-8",
+        "cpf":"589547841-76",
+        "rua":"Rua das Acacias",
+        "numero":"54",
+        "estado":"Acre",
+        "cidade":"Cambori",
+        "cep":"58746-98",
+        "informacao":"A Aline é T21 e treina motricidade fina."
+    },
+    {
+        "nome":"Bernardo",
+        "email":"bernardoluco@email.com",
+        "data_nasc":"27/03/2004",
+        "rg":"258955-8",
+        "cpf":"558746841-76",
+        "rua":"Rua das Marias",
+        "numero":"24",
+        "estado":"São Paulo",
+        "cidade":"Campinas",
+        "cep":"22457-98",
+        "informacao":"Bernardo tem PC e treina marcha."
+    },
+    {
+        "nome":"Giovana",
+        "email":"Giovanaader@email.com",
+        "data_nasc":"12/08/2012",
+        "rg":"255874-8",
+        "cpf":"558365214-76",
+        "rua":"Rua do Farol",
+        "numero":"24",
+        "estado":"São Paulo",
+        "cidade":"Taubaté",
+        "cep":"25874-98",
+        "informacao":"Giovana tem Seletividade e faz integração sensorial."
+    },
+    {
+        "nome":"Fabiano",
+        "email":"Fabianohugo@email.com",
+        "data_nasc":"25/03/2011",
+        "rg":"587465-8",
+        "cpf":"458744512-76",
+        "rua":"Rua do teto baixo",
+        "numero":"98",
+        "estado":"São Paulo",
+        "cidade":"Atibaia",
+        "cep":"69854-41",
+        "informacao":"Fabiano tem TEA e trabalha compartilhamento de interesse."
+    },
+    {
+        "nome":"Rafael",
+        "email":"Rafaelbrandao@email.com",
+        "data_nasc":"22/1/2002",
+        "rg":"3658794-8",
+        "cpf":"145287598-75",
+        "rua":"Estrada do Tibao",
+        "numero":"5784",
+        "estado":"São Paulo",
+        "cidade":"Aparecida",
+        "cep":"365985-78",
+        "informacao":"Rafael tem TPS e trabalha dessensibilização olf."
+    },
 ]
 const tabelaCadastro = document.querySelector("#tabelaCadastro");
 

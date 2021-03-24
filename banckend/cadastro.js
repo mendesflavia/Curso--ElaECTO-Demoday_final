@@ -9,7 +9,7 @@ const cadastro =
     "rua":"Rua Para",
     "numero":"33 apt 42",
     "bairro":"Campo Grande",
-    "estado":"S�o Paulo",
+    "estado":"Sao Paulo",
     "cidade":"Santos",
     "cep":"11075-000",
     "informacao":"",
@@ -46,14 +46,14 @@ for (let dados of cadastro) {
     cidade.innerHTML =dados.cidade;
     const cep = document.createElement("td");
     cep.innerHTML =dados.cep;
-    const informacao = document.createElement("td");
+    /*const informacao = document.createElement("td");
     informacao.innerHTML =dados.informacao;
     const clinte = document.createElement("td");
     cliente.innerHTML =dados.cliente;
     const paciente = document.createElement("td");
     paciente.innerHTML =dados.paciente;
     const fornecedor = document.createElement("td");
-    fornecedor.innerHTML =dados.fornecedor;
+    fornecedor.innerHTML =dados.fornecedor;*/
 
 
     linha.appendChild(nome);
@@ -67,16 +67,16 @@ for (let dados of cadastro) {
     linha.appendChild(estado);
     linha.appendChild(cidade);
     linha.appendChild(cep);
-    linha.appendChild(informacao);
+    /*linha.appendChild(informacao);
     linha.appendChild(cliente);
     linha.appendChild(paciente);
-    linha.appendChild(fornecedor);
+    linha.appendChild(fornecedor);*/
 
     tabelaCadastro.appendChild(linha)
 
 }
 
-const enviarbotao = document.querySelector("#botaoEnviar");
+const botaoEnviar = document.querySelector("#botaoEnviar");
 
 function enviarCadastro() { 
 
@@ -91,10 +91,10 @@ function enviarCadastro() {
     const estadoipt = document.querySelector("input[name='estado']").value;
     const cidadeipt = document.querySelector("input[name='cidade']").value;
     const cepipt = document.querySelector("input[name=cep']").value;
-    const informacaoipt = document.querySelector("input[name='informacao']").value;
+   /* const informacaoipt = document.querySelector("input[name='informacao']").value;
     const clienteipt = document.querySelector("input[name='cliente']").value;
     const pacienteipt = document.querySelector("input[name='paciente']").value;
-    const fornecedoript = document.querySelector("input[name='fornecedor']").value;
+    const fornecedoript = document.querySelector("input[name='fornecedor']").value;*/
     
 
     const linha = document.createElement("tr");
@@ -120,14 +120,14 @@ function enviarCadastro() {
     cidade.innerHTML = cidadeipt;
     const cep = document.createElement("td");
     cep.innerHTML = cepipt;
-    const informacao = document.createElement("td");
+   /* const informacao = document.createElement("td");
     informacao.innerHTML = informacaoipt;
     const cliente = document.createElement("td");
     cliente.innerHTML = clienteipt;
     const paciente = document.createElement("td");
     paciente.innerHTML = pacienteipt;
     const fornecedor = document.createElement("td");
-    fornecedor.innerHTML = fornecedoript;
+    fornecedor.innerHTML = fornecedoript; */
 
     linha.appendChild(nome);
     linha.appendChild(email);
@@ -140,14 +140,14 @@ function enviarCadastro() {
     linha.appendChild(estado);
     linha.appendChild(cidade);
     linha.appendChild(cep);
-    linha.appendChild(informacao);
+    /*linha.appendChild(informacao);
     linha.appendChild(cliente);
     linha.appendChild(paciente);
-    linha.appendChild(informacao);
+    linha.appendChild(informacao);*/
 
     tabelaCadastro.appendChild(linha)
 
 } 
 
 
-enviarbotao.addEventListener("click", enviarCadastro)
+botaoEnviar.addEventListener("click", enviarCadastro)

@@ -26,45 +26,7 @@ const cadastro =
         "cep":"22457-98",
         "informacao":"Bernardo tem PC e treina marcha."
     },
-    {
-        "nome":"Giovana",
-        "email":"Giovanaader@email.com",
-        "data_nasc":"12/08/2012",
-        "rg":"255874-8",
-        "cpf":"558365214-76",
-        "rua":"Rua do Farol",
-        "numero":"24",
-        "estado":"São Paulo",
-        "cidade":"Taubaté",
-        "cep":"25874-98",
-        "informacao":"Giovana tem Seletividade e faz integração sensorial."
-    },
-    {
-        "nome":"Fabiano",
-        "email":"Fabianohugo@email.com",
-        "data_nasc":"25/03/2011",
-        "rg":"587465-8",
-        "cpf":"458744512-76",
-        "rua":"Rua do teto baixo",
-        "numero":"98",
-        "estado":"São Paulo",
-        "cidade":"Atibaia",
-        "cep":"69854-41",
-        "informacao":"Fabiano tem TEA e trabalha compartilhamento de interesse."
-    },
-    {
-        "nome":"Rafael",
-        "email":"Rafaelbrandao@email.com",
-        "data_nasc":"22/1/2002",
-        "rg":"3658794-8",
-        "cpf":"145287598-75",
-        "rua":"Estrada do Tibao",
-        "numero":"5784",
-        "estado":"São Paulo",
-        "cidade":"Aparecida",
-        "cep":"365985-78",
-        "informacao":"Rafael tem TPS e trabalha dessensibilização olf."
-    },
+    
 ]
 const tabelaCadastro = document.querySelector("#tabelaCadastro");
 

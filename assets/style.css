@@ -158,10 +158,10 @@ margin: 8px;
 .banner_cadastro{
   background-image: url(img/cadastro.png);
   background-size: cover;
-  height: 100vh;
+  height: 700px;
   width: 100%;
   margin-top: 0;
-  padding-top: 135px;
+  padding-top: 153px;
   color: azure;
 }
 #botaoEnviarCadastro{

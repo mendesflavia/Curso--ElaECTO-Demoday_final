@@ -164,6 +164,16 @@ margin: 8px;
   padding-top: 135px;
   color: azure;
 }
+#botaoEnviarCadastro{
+  border: none;
+  border-radius: 15px;
+  height: 25px;
+  width: 85px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #42403f;
+  background-color: #B8B8B8;
+}
 .banner_estoque{
   background-image: url(img/estoque.png);
   background-size: cover;

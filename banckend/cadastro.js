@@ -81,7 +81,7 @@ for (let dados of cadastro) {
 
 }
 
-const enviarbotao = document.querySelector("#botaoEnviarCadastro");
+const enviarbotaoCadastro = document.querySelector("#botaoEnviarCadastro");
 
 function enviarCadastro() { 
 
@@ -148,4 +148,4 @@ function enviarCadastro() {
 } 
 
 
-enviarbotao.addEventListener("click", enviarCadastro)
+enviarbotaoCadastro.addEventListener("click", enviarCadastro)

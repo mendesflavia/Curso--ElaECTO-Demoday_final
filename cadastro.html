@@ -18,10 +18,10 @@
                 <a href="logado.html">Dia Dia</a>
             </li>
             <li>
-                <a href="estoque.html">Estoque</a>
+                <a href="cadastro.html">Cadastro</a>
             </li>
             <li>
-                <a href="cadastro.html"> Cadastro </a>                     
+                <a href="estoque.html"> Estoque </a>                     
             </li>
             <li>
                 <a href="agenda.html">Agenda
@@ -31,10 +31,14 @@
             </li>                
          </ul>   
     </nav>
-    <!--cadastro-->
-        <section class="banner_cadastro" id="cadastro"> 
+    
+       <!--cadastro-->
+       <header class="bannercadastro" id="cadastro"> 
+            
         <div id="formCadastro">
-            <fieldset>
+       
+       <form action="cadastro">
+           <fieldset>
                <legend>Dados Pessoais</legend>
                <table cellspacing="5">
                    <tr>
@@ -56,8 +60,8 @@
                            <label>Nascimento: </label>
                        </td>
                        <td align="left">
-                           <input type="text" name="data_nasc" size="10" maxlength="10" value=""> 
-                          
+                           <input type="text" name="Data_nasc" size="6" maxlength="6" value="dd/mm/yy"> 
+              
                        </td>
                    </tr>
                    <tr>
@@ -73,17 +77,18 @@
                            <label>CPF:</label>
                        </td>
                        <td align="left">
-                           <input type="text" name="cpf" size="11" maxlength="11">
+                           <input type="text" name="cpf" size="9" maxlength="13">
                        </td>
                    </tr>
                </table>
-            </fieldset>
+           </fieldset>
            
            <br />
            <!-- ENDEREÇO -->
            <fieldset>
                <legend>Dados de Endereço</legend>
                <table cellspacing="10">
+                   
                    <tr>
                        <td>
                            <label for="rua">Rua:</label>
@@ -95,7 +100,7 @@
                    <label for="numero">Numero:</label>
                </td>
              <td align="left">
-                 <input type="text" name="numero" size="8">
+                 <input type="text" name="numero" size="4">
                </td>
            </tr>
            <tr>
@@ -111,11 +116,39 @@
                    <label for="estado">Estado:</label>
                </td>
                <td align="left">
-                <input type="text" name="estado"> 
-                </td>
-                </tr>
-                <tr>
-                    <td>
+                 <select name="estado"> 
+              <option value="ac">Acre</option> 
+              <option value="al">Alagoas</option> 
+              <option value="am">Amazonas</option> 
+              <option value="ap">Amapá</option> 
+              <option value="ba">Bahia</option> 
+              <option value="ce">Ceará</option> 
+              <option value="df">Distrito Federal</option> 
+              <option value="es">Espírito Santo</option> 
+              <option value="go">Goiás</option> 
+              <option value="ma">Maranhão</option> 
+              <option value="mt">Mato Grosso</option> 
+              <option value="ms">Mato Grosso do Sul</option> 
+              <option value="mg">Minas Gerais</option> 
+              <option value="pa">Pará</option> 
+              <option value="pb">Paraíba</option> 
+              <option value="pr">Paraná</option> 
+              <option value="pe">Pernambuco</option> 
+              <option value="pi">Piauí</option> 
+              <option value="rj">Rio de Janeiro</option> 
+              <option value="rn">Rio Grande do Norte</option> 
+              <option value="ro">Rondônia</option> 
+              <option value="rs">Rio Grande do Sul</option> 
+              <option value="rr">Roraima</option> 
+              <option value="sc">Santa Catarina</option> 
+              <option value="se">Sergipe</option> 
+              <option value="sp">São Paulo</option> 
+              <option value="to">Tocantins</option> 
+           </select>
+       </td>
+   </tr>
+   <tr>
+       <td>
                     <label for="cidade">Cidade: </label>
                    </td>
                    <td align="left">
@@ -135,14 +168,18 @@
        <br />
        
        <!-- informações -->
-            <fieldset>
-             <legend>Informações</legend>
-                <input type="text" name="informacao">                
-                <button id="botaoEnviarCadastro">enviar</button>
+       <fieldset>
+           <legend>Informações</legend>
+               <label for ="informaçoes"></label>
+               <textarea class=cxtxt cols=80 id="opiniao" rows="5" name="opiniao" maxlength="200" wrap="hard"></textarea>
+               <input type="checkbox" name="tipo_cadastro" value="cliente">Cliente
+               <input type="checkbox" name="tipo_cadastro" value="paciente">Paciente      
+               <input type="checkbox" name="tipo_cadastro" value="fornecedor">Fornecedor<br>
             </fieldset>
-            
+        </form>
+            <button id="botaoSend">enviar</button>
 
-               <table id="tabelaCadastro" rules="all" cellSpacing="10" cellPadding="10">
+               <table id="tabelaCadastro" cellSpacing="10" cellPadding="8" >
                     <tr>
                        <th>
                         Nome
@@ -183,10 +220,13 @@
                         </th>
                         <th>
                         Informações
-                    </th>
-                </th>
-        </div>
-        </section>
+                        </th>
+                      </tr>
+               </table>
+      
+
+</div>
+   </header>
 
   </body>
-</html>
+  </html>

@@ -18,13 +18,10 @@
                 <a href="logado.html">Dia Dia</a>
             </li>
             <li>
-                <a href="estoque.html">Estoque</a>
+                <a href="cadastro.html">Cadastro</a>
             </li>
             <li>
-                <a href="cadastro.html"> Cadastro </a>                     
-            </li>
-            <li>
-                <a href="agenda.html">Agenda
+                <a href="estoque.html"> Estoque </a>                     
             </li>
             <li>
                 <a href="agenda.html">Agenda
@@ -33,11 +30,14 @@
                 <a href="home.html">Voltar para Home</a>
             </li>                
          </ul>   
-    </nav>    
+    </nav>
+    </nav>
     
   <!--estoque-->
-    <section class="banner_estoque" id="estoque"> 
-            <fieldset>
+  <header class="banner5" id="estoque"> 
+    <body class="estoque">
+        <form>
+            <fieldset id=fieldEstoque>
                 <legend>Estoque</legend>
                 <table cellspacing="10">
 
@@ -46,14 +46,19 @@
                    <label for="descriçao">Descrição: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="descricao"size="100" maxlength="100" value="">
+                   <input type="text" name="descricao">
+                  </td>
+
+            
+                
                  </tr>
+
                  <tr>
                   <td>
                    <label>Quantidade: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="quantidade" size="20" maxlength="10" value=""> 
+                   <input type="text" name="quantidade" size="4" maxlength="4" value=""> 
                    </td>
                  </tr>
 
@@ -62,7 +67,7 @@
                    <label for="Unidade">Unidade: </label>
                   </td>
                   <td align="left">
-                   <input type="text" name="unidade" size="20" maxlength="10"> 
+                   <input type="text" name="unidade" size="4" maxlength="4"> 
                   </td>
                  </tr>
 
@@ -71,7 +76,7 @@
                    <label>Custo R$:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="custo" size="20" maxlength="10"> 
+                   <input type="text" name="custo" size="9" maxlength="9"> 
                   </td>
                  </tr>
 
@@ -80,7 +85,7 @@
                  <label>Valor total do estoque R$:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="valorTotalEstoque" size="20" maxlength="10"> 
+                   <input type="text" name="valorTotalEstoque" size="10" maxlength="10"> 
                   </td>
                  </tr>
 
@@ -89,7 +94,7 @@
                  <label>Lucro %:</label>
                   </td>
                   <td align="left">
-                   <input type="text" name="lucro" size="20" maxlength="10"> 
+                   <input type="text" name="lucro" size="3" maxlength="3"> 
                   </td>
                  </tr>
                  <tr>
@@ -98,7 +103,7 @@
                      <label>Valor de venda R$:</label>
                       </td>
                       <td align="left">
-                       <input type="text" name="valorVenda" size="20" maxlength="10"> 
+                       <input type="text" name="valorVenda" size="10" maxlength="10"> 
                       </td>
                      </tr>
                      <tr>
@@ -106,16 +111,19 @@
                      <label>Fornecedor :</label>
                       </td>
                       <td align="left">
-                       <input type="text" name="fornecedor" size="50" maxlength="100"> 
+                       <input type="text" name="fornecedor" size="10" maxlength="10"> 
                       </td>
                      </tr>
                              
                     </td>
                 </table>
-                <button id="botaoEnviar">enviar</button>
             </fieldset>
+        </form>
+        <button id="botaoEnviar">Enviar</button>
+               
+     <table id="tabelaEstoque"  rules="all" cellSpacing="10" cellPadding="8" >
+        <fieldset>
 
-        <table id="tabelaEstoque" rules="all" cellSpacing="10" cellPadding="4">
             <tr>
                <th>
                 Descrição
@@ -141,10 +149,18 @@
                <th>
                 Fornecedor
                </th>
-        </table>
-    </section>
-  </body>
-</html>
+
+            
 
 
 
+              </tr>
+
+        </fieldset>
+
+
+     </table>
+
+
+
+</header>

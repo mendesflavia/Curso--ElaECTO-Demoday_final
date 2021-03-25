@@ -24,7 +24,18 @@ const estoque =
         "fornecedor": " Comask",
         "imagem de produto":""
     },
-   
+    {
+        "id": "2",
+        "descricao": "shorts branco",
+        "quantidade": 5,
+        "unidade":"un" ,
+        "custo":40.00 ,
+        "valorTotalEstoque": 200.00,
+        "lucro":"100%",
+        "valorVenda": "80.00",
+        "fornecedor": " Comask",
+        "imagem de produto":""
+    }
 ]  
 
 const tabela = document.querySelector("#tabelaEstoque");

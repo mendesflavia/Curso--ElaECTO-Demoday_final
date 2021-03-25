@@ -88,7 +88,7 @@ nav button {
 }
 
 .banner_equipe {
-  background-image: url(img/4.png);
+  background-image: url(img/equipe.png);
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -96,7 +96,7 @@ nav button {
 }
 
 .banner_contato {
-  background-image: url(img/5.png);
+  background-image: url(img/contato.png);
   background-size: cover;
   height: 600px;
   width: 100%;
@@ -164,7 +164,7 @@ nav button {
 
 
 /*logado*/
-.banner00 {
+.banner_diadia {
   background-image: url(img/diadia.png);
   background-size: cover;
   height: 800px;
@@ -174,7 +174,7 @@ nav button {
   color: azure;
 }
 
-.banner4 {
+.banner_cadastro {
   background-image: url(img/cadastro2.png);
   background-size: cover;
   height: 600px;
@@ -184,7 +184,7 @@ nav button {
   color: azure;
 }
 
-.banner5 {
+.banner_estoque {
   background-image: url(img/estoque.png);
   background-size: cover;
   height: 420px;
@@ -194,13 +194,13 @@ nav button {
   color: black;
 }
 
-.banner6 {
-  background-image: url(img/agenda.png);
-  background-size: cover;
-  height: 800px;
-  width: 100%;
-  background-color: #fc7f36;
-
+.banner_agenda{
+  background-color:#fc7f36;
+   background-size: cover;
+   height: 900px;
+   width: 100%;
+   color: black; 
+ 
 }
 
 .bannercadastro {
